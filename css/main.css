@@ -322,15 +322,14 @@
 }
 
 .section-page-right {
-    display: flex;
-    gap: 48px;
+  
 
 }
 
 
 .section-img {
-    margin-left: 108px;
-    margin-bottom: 120px;
+    margin-left: auto;
+    margin-bottom: auto;
 }
 
 .section-title-2 {
@@ -389,8 +388,10 @@
 
 .separate-chapter-title {
     margin-top: 140px;
-    margin-right: 108px;
-    margin-left: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 494px;
+
 
 
 }
@@ -501,7 +502,11 @@
 
 }
 
-@media (max-width: 980px) {}
+@media (max-width: 980px) {
+    .section{
+        max-width: 3060px;
+    }
+}
 
 
 
